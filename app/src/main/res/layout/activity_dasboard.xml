@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDasboard"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigtion_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/menu_header"
+        app:menu="@menu/main_menu">
+
+
+    </com.google.android.material.navigation.NavigationView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/home_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_menu_black_24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    </LinearLayout>
+ <LinearLayout
+     android:id="@+id/pertama"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/app_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="50dp"
+             android:layout_marginRight="20dp"
+             android:fontFamily="@font/autour_one"
+             android:text="@string/app_name"
+             android:textSize="35sp" />
+
+         <ImageView
+             android:id="@+id/img_mkn"
+             android:layout_width="141dp"
+             android:layout_height="141dp"
+             android:layout_gravity="center"
+             android:layout_margin="20dp"
+             android:layout_marginTop="30dp"
+             android:layout_weight="1"
+             android:onClick="MenuMakanan"
+             android:src="@drawable/cat_makanan"/>
+
+     </LinearLayout>
+
+     <ImageView
+         android:id="@+id/img_mnm"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_centerHorizontal="true"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="10dp"
+         android:paddingLeft="20dp"
+         android:paddingTop="10dp"
+         android:src="@drawable/cat_minuman" />
+
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/ln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/balthazar"
+            android:text="Aplikasi by Jafni"
+            android:textSize="24sp" />
+    </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

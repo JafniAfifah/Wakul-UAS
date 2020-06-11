@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#57E964</color>
+    <color name="colorPrimaryDark">#41383C</color>
+    <color name="colorAccent">#5E5A80</color>
+
+    <!-- DASBOARD Color-->
+    <color name="home_background">#FAF8CC</color>
+    <color name="banner_background"></color>
+    <color name="banner_background_light"></color>
+
+    <!-- Card Colors -->
+    <color name="card1"></color>
+    <color name="card2"></color>
+    <color name="card3"></color>
+    <color name="card4"></color>
+
+
+</resources>

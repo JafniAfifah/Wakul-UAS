@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Wakul</string>
+
+    <!--String UserDasboard-->
+    <string name="first_slide_title">Halo</string>
+    <string name="second_slide_title">Sedikit Informasi</string>
+
+    <string name="lets_get_strated">LETS GET STARTED</string>
+
+    <!--Slider Deskrisi-->
+    <string name="first_slide_desc">Selamat datang di aplikasi Wakul. Terima kasih telah mencoba aplikasi ini  </string>
+    <string name="second_slide_desc">Aplikasi ini merupakan aplikasi yang akan memberi tahu kamu tentang apa saja makanan dan minuman khas yang ada di Jawa Timur.
+    Semoga informasinya bermanfaat untuk semuanya.</string>
+    <string name="berhasil">Ini adalah halaman yang nantinya akan berisi semua informasi minuman tradisional khas jawa timur</string>
+    <string name="sukses">ini halaman makanan yang nanti akan ada list makanan tradisional khas jawa timur</string>
+
+    <!--String for Dasrboard-->
+
+    <!--Kategori-->
+    <string name="makan">Makanan</string>
+    <string name="minum">Minuman</string>
+    <string name="home">Home</string>
+
+    <!--Profile-->
+    <string name="akun">Profile</string>
+    <string name="login">Login</string>
+    <string name="logut">Logoout</string>
+
+    <!--Minuman-->
+    <string name="minum1">Wedang Angsle</string>
+    <string name="minum2">Wedang Pokak</string>
+    <string name="minum3">Wedang Jaselang</string>
+    <string name="minum4">STMJ</string>
+    <string name="minum5">WEdang Cemue</string>
+
+
+</resources>
